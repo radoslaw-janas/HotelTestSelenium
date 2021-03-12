@@ -1,0 +1,23 @@
+1615420113858	geckodriver	INFO	Listening on 127.0.0.1:61738
+1615420116933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "start-maximized" "-foreground" "-no-remote" "-profile" "C:\\Users\\Matias\\AppData\\Local\\Temp\\rust_mozprofile6lIHur"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615420119741	Marionette	INFO	Listening on port 61752
+1615420120140	Marionette	WARN	TLS certificate errors will be ignored for this session
+1615420122910	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1615420123869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: http://www.kurs-selenium.pl/demo/themes/default/assets/js/scripts.js, line 234: TypeError: $(...).offset() is undefined
+1615420126412	Marionette	INFO	Stopped listening on port 61752
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
